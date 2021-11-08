@@ -28,6 +28,8 @@
 		6011C3D82735531E0019F031 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011C3D72735531E0019F031 /* Results.swift */; };
 		6011C3DD273553A90019F031 /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011C3DC273553A90019F031 /* ConverterViewController.swift */; };
 		6011C3EA273554710019F031 /* RatesDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011C3E9273554710019F031 /* RatesDetailModel.swift */; };
+		602C233C2739536300E49C9E /* RatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C233B2739536300E49C9E /* RatesViewController.swift */; };
+		602C23412739556E00E49C9E /* RateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C23402739556E00E49C9E /* RateCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		6011C3D72735531E0019F031 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		6011C3DC273553A90019F031 /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
 		6011C3E9273554710019F031 /* RatesDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesDetailModel.swift; sourceTree = "<group>"; };
+		602C233B2739536300E49C9E /* RatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesViewController.swift; sourceTree = "<group>"; };
+		602C23402739556E00E49C9E /* RateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,10 +130,10 @@
 			isa = PBXGroup;
 			children = (
 				6011C3C9273552C50019F031 /* Extensions */,
-				6011C3BB273551CD0019F031 /* Controllers */,
-				6011C3A8273551200019F031 /* Models */,
-				6011C39F273550C40019F031 /* Network */,
 				6011C391273550150019F031 /* Helpers */,
+				6011C39F273550C40019F031 /* Network */,
+				6011C3A8273551200019F031 /* Models */,
+				6011C3BB273551CD0019F031 /* Controllers */,
 				6011C39027354FC50019F031 /* Views */,
 				6011C35527354B700019F031 /* AppDelegate.swift */,
 				6011C35727354B700019F031 /* SceneDelegate.swift */,
@@ -163,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				6011C3BC273551ED0019F031 /* CurrencyCell.swift */,
+				602C23402739556E00E49C9E /* RateCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 				6011C38B27354EBC0019F031 /* MainViewController.swift */,
 				6011C3C4273552430019F031 /* CurrenciesViewController.swift */,
 				6011C3DC273553A90019F031 /* ConverterViewController.swift */,
+				602C233B2739536300E49C9E /* RatesViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -348,6 +354,7 @@
 				6011C3BD273551ED0019F031 /* CurrencyCell.swift in Sources */,
 				6011C3C5273552430019F031 /* CurrenciesViewController.swift in Sources */,
 				6011C3B7273551920019F031 /* Currency.swift in Sources */,
+				602C233C2739536300E49C9E /* RatesViewController.swift in Sources */,
 				6011C3AA273551320019F031 /* ErrorModel.swift in Sources */,
 				6011C3EA273554710019F031 /* RatesDetailModel.swift in Sources */,
 				6011C38C27354EBC0019F031 /* MainViewController.swift in Sources */,
@@ -355,6 +362,7 @@
 				6011C393273550300019F031 /* Settings.swift in Sources */,
 				6011C3CB273552D20019F031 /* UIActivityIndicatorView.swift in Sources */,
 				6011C35827354B700019F031 /* SceneDelegate.swift in Sources */,
+				602C23412739556E00E49C9E /* RateCell.swift in Sources */,
 				6011C39B2735503C0019F031 /* CommonMethods.swift in Sources */,
 				6011C3D82735531E0019F031 /* Results.swift in Sources */,
 				6011C3D3273552E90019F031 /* UIAlertView.swift in Sources */,
